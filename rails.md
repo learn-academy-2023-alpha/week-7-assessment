@@ -1,46 +1,40 @@
-# Rails Assessments
+# ASSESSMENT 5: INTRO TO RAILS
+## Interview Practice Questions
 
-Try your best to answer each question on your own before looking up the answer online. Once you're done writing your first answer, you can google the question and write the best answer you find.
+Answer the following questions. First, without external resources. Challenge yourself to answer from memory. Then, research the question to expand on your answer. Even if you feel you have answered the question completely on your own there is always something more to learn.
 
-### 1. What are some advantages of using Ruby on Rails?
+1. MVC (Model View Controller) is a pattern for the architecture of a software program. Give a brief description of each component and describe how Ruby on Rails handles MVC.
 
-### 2. How does Ruby on Rails use the Model View Controller (MVC) framework?
+  Your answer:
 
-### 3. Using the information given, complete the steps for creating a new view in a rails app by filling in the blanks:
+  Researched answer:
 
-  1. Create a route: 
-  
-  code: 
+
+
+2. Using the information given, fill in the blanks to complete the steps for creating a new view in a Rails application.
+
+  Step 1: Create the _________ in the file config/routes
   ```
-  get '/about' => 'statics#about' 
+  get '/about' => 'statics#about'
   ```
-  file: config/routes
-  
-  2. Create the ____________
-  
-  code: 
+
+  Step 2: Create the ____________ in the file _____________
   ```
   class ____________ < ApplicationController
-  
-  def about 
-    _______________________
+    def ___________
+      render: ________________
+    end
   end
   ```
-  
-  file: _____________________
-  
-  3. Create the View
-  
-  code: 
-  
+
+  Step 3: Create the View in the file ______________
+  code:
   ```
   <div>This is the About page!</div>
   ```
-  
-  file: _____________________
-  
-  
-### 4. Look at these sets of Rails routes, they are an example of which principle/term that we touched on briefly in class? Find the term, and explain why it is important.
+
+
+3. Consider the Rails routes below. Describe the responsibility of  each route. Which routes must always be passed params and why?
 
 ```
 /users/       method="GET"     # :controller => 'users', :action => 'index'
@@ -52,20 +46,52 @@ Try your best to answer each question on your own before looking up the answer o
 /users/1      method="DELETE"  # :controller => 'users', :action => 'destroy'
 ```
 
-### 5. What is the public folder used for in Rails?
 
-### 6. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
 
-### 7. What are cookies for? How do they work? What is the difference between a session and a cookie?
 
-### 8. In an html form, what does the "action" attribute tell you about the form?  How do you designate the HTTP verb for the form?
 
-### 9. Why would you use an instance variable in a rails controller?
+4. What is the public folder used for in Rails?
 
-### 10. Name two rails generator commands and what files they create:
+  Your answer:
 
-### 11. Rails has a great community and lots of free tutorials to help you learn. Here is a list of some tutorials to choose from, choose one, do it, and then report back here at least one thing you learned. You can also use a different resource if you find one that you like better. 
+  Researched answer:
 
-- https://www.tutorialspoint.com/ruby-on-rails/index.htm
-- http://railsforzombies.org
-- http://guides.rubyonrails.org/getting_started.html
+
+
+5. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess"
+
+
+
+6. What are cookies? What is the difference between a session and a cookie?
+
+  Your answer:
+
+  Researched answer:
+
+
+
+7. In an html form, what does the "action" attribute tell you about the form? How do you designate the HTTP verb for the form?
+
+  Your answer:
+
+  Researched answer:
+
+
+
+8. Name two rails generator commands and what files they create:
+
+  Your answer:
+
+  Researched answer:
+
+
+9. Rails has a great community and lots of free tutorials to help you learn. Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Rails:
+- [Ruby on Rails Tutorial](https://www.tutorialspoint.com/ruby-on-rails/index.htm)
+- [Rails for Zombies](http://railsforzombies.org)
+- [Rails Guides](http://guides.rubyonrails.org/getting_started.html)
+
+1.
+
+2.
+
+3.
