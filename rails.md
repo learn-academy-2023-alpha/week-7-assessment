@@ -13,7 +13,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 2. Using the information given, fill in the blanks to complete the steps for creating a new view in a Rails application.
 
-  Step 1: Create the _________ in the file config/routes
+  Step 1: Create the _________ in the file config/routes.rb
   ```
   get '/about' => 'statics#about'
   ```
@@ -34,7 +34,9 @@ Answer the following questions. First, without external resources. Challenge you
   ```
 
 
-3. Consider the Rails routes below. Describe the responsibility of  each route. Which routes must always be passed params and why?
+3a. Consider the Rails routes below. Describe the responsibility of  each route.
+
+
 
 ```
 /users/       method="GET"     # :controller => 'users', :action => 'index'
@@ -45,8 +47,7 @@ Answer the following questions. First, without external resources. Challenge you
 /users/1      method="PUT"     # :controller => 'users', :action => 'update'
 /users/1      method="DELETE"  # :controller => 'users', :action => 'destroy'
 ```
-
-
+3b. Which routes must always be passed params and why?
 
 
 
