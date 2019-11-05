@@ -22,7 +22,7 @@ Answer the following questions. First, without external resources. Challenge you
   ```
   class ____________ < ApplicationController
     def ___________
-      render: ________________
+      render ________________
     end
   end
   ```
@@ -37,17 +37,23 @@ Answer the following questions. First, without external resources. Challenge you
 3a. Consider the Rails routes below. Describe the responsibility of  each route.
 
 
-
-```
 /users/       method="GET"     # :controller => 'users', :action => 'index'
+
 /users/1      method="GET"     # :controller => 'users', :action => 'show'
+
 /users/new    method="GET"     # :controller => 'users', :action => 'new'
+
 /users/       method="POST"    # :controller => 'users', :action => 'create'
+
 /users/1/edit method="GET"     # :controller => 'users', :action => 'edit'
+
 /users/1      method="PUT"     # :controller => 'users', :action => 'update'
+
 /users/1      method="DELETE"  # :controller => 'users', :action => 'destroy'
-```
-3b. Which routes must always be passed params and why?
+
+
+
+3b. Which of the above routes must always be passed params and why?
 
 
 
@@ -63,7 +69,8 @@ Answer the following questions. First, without external resources. Challenge you
 
 
 
-6. What are cookies? What is the difference between a session and a cookie?
+
+6. In an html form, what does the "action" attribute tell you about the form? How do you designate the HTTP verb for the form?
 
   Your answer:
 
@@ -71,22 +78,14 @@ Answer the following questions. First, without external resources. Challenge you
 
 
 
-7. In an html form, what does the "action" attribute tell you about the form? How do you designate the HTTP verb for the form?
+7. Name two rails generator commands and what files they create:
 
   Your answer:
 
   Researched answer:
 
 
-
-8. Name two rails generator commands and what files they create:
-
-  Your answer:
-
-  Researched answer:
-
-
-9. Rails has a great community and lots of free tutorials to help you learn. Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Rails:
+8. Rails has a great community and lots of free tutorials to help you learn. Choose one of these resources and look through the material for 10-15 min. List three new things you learned about Rails:
 - [Ruby on Rails Tutorial](https://www.tutorialspoint.com/ruby-on-rails/index.htm)
 - [Rails for Zombies](http://railsforzombies.org)
 - [Rails Guides](http://guides.rubyonrails.org/getting_started.html)
@@ -96,3 +95,9 @@ Answer the following questions. First, without external resources. Challenge you
 2.
 
 3.
+
+9. STRETCH: What are cookies? What is the difference between a session and a cookie?
+
+  Your answer:
+
+  Researched answer:
