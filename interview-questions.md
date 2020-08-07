@@ -1,5 +1,9 @@
 # ASSESSMENT 6: Interview Practice Questions
-Answer the following questions. First, without external resources. Challenge yourself to answer from memory. Then, research the question to expand on your answer. Even if you feel you have answered the question completely on your own, there is always something more to learn.
+Answer the following questions.
+
+First, without external resources. Challenge yourself to answer from memory.
+
+Then, research the question to expand on your answer. Even if you feel you have answered the question completely on your own, there is always something more to learn. Write your researched answer in your OWN WORDS.
 
 1. In a model called Animal that has_many Sightings, what is the name of the foreign key? Would the foreign key be part of the Animal model or the Sightings model?
 
@@ -17,7 +21,7 @@ Answer the following questions. First, without external resources. Challenge you
 
 
 
-3. Write a rails route for a controller called "main" and a page called "game" that takes in a parameter called "guess".
+3. Based on your knowledge of Rails conventions, write a route for a webpage called "game" that takes in a parameter called "guess" with a controller called "main".
 
   Your answer:
 
@@ -33,14 +37,16 @@ Answer the following questions. First, without external resources. Challenge you
 
 5. Consider the Rails routes below. Describe the responsibility of each route.
 
-/users        method="GET"
+method="GET"    /users          
 
-/users/1      method="GET"
+method="GET"    /users/1  
 
-/users/new    method="GET"
+method="GET"    /users/new
 
-/users/       method="POST"
+method="GET"    /users/edit/1    
 
-/users/1      method="PUT"
+method="POST"   /users/       
 
-/users/1      method="DELETE"
+method="PUT"    /users/1      
+
+method="DELETE" /users/1      

@@ -21,6 +21,9 @@ class BlogPostsController < ApplicationController
   def new
   end
 
+  def edit
+  end
+
   def create
     # 5)
     @post = BlogPost.create(blog_post_params)
@@ -33,7 +36,7 @@ class BlogPostsController < ApplicationController
 
   def destroy
     @post = BlogPost.find(params[:id])
-    if @post.delete
+    if @post.destroy
       redirect_to blog_posts_path
     else
       # 6)
@@ -45,7 +48,7 @@ class BlogPostsController < ApplicationController
   private
   def blog_post_params
     # 8)
-    params.require(:blog_post).permit(:title, :content)
+    params.permit(:title, :content)
   end
 
 end
