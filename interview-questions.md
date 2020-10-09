@@ -13,7 +13,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-2. Which routes must always be passed params and why?
+2. Which RESTful routes must always be passed params? Why?
 
   Your answer:
 
@@ -21,13 +21,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-3. Based on your knowledge of Rails conventions, write a route for a webpage called "game" that takes in a parameter called "guess" with a controller called "main".
-
-  Your answer:
-
-
-
-4. Name three rails generator commands. What is created by each?
+3. Name three rails generator commands. What is created by each?
 
   Your answer:
 
@@ -35,7 +29,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-5. Consider the Rails routes below. Describe the responsibility of each route.
+4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
 method="GET"    /users          
 
@@ -50,3 +44,7 @@ method="POST"   /users/
 method="PUT"    /users/1      
 
 method="DELETE" /users/1      
+
+
+
+5. As a developer, you want to make an application that will help you manage your to do list. For the MVP, you want to create just the user's view. Create 10 user stories that will help you get your application started. 

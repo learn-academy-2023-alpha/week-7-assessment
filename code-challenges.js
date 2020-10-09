@@ -1,4 +1,4 @@
-// ASSESSMENT 6: Coding Practical Questions
+// ASSESSMENT 6: JavaScript Coding Practical Questions
 
 
 // --------------------1) Create a function that takes in an array of objects and returns a sentence about each person with their names capitalized.
@@ -14,7 +14,7 @@ var people = [
 
 
 
-// --------------------2) Create a function that takes in a mixed data array and returns an array of only the remainder of the numbers when divided by 3.
+// --------------------2) Create a function that takes in a mixed data array and returns an array of only the REMAINDER of the numbers when divided by 3.
 
 var testingArray1 = [23, "Heyyyy!", 45, -9, 0, "Yo", false]
 // Expected output: [ 2, 0, -0, 0 ]

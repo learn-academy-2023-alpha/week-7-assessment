@@ -1,9 +1,10 @@
 # ASSESSMENT 6: Rails Commenting Challenge
+
 # Add comments to the Rails Blog Post Challenge
 # Explain the purpose and functionality of the code directly below the 10 comment tags
 
 
-# app/controller/blog_posts_controller.rb
+# FILE: app/controller/blog_posts_controller.rb
 
 # 1)
 class BlogPostsController < ApplicationController
@@ -19,18 +20,31 @@ class BlogPostsController < ApplicationController
 
   # 4)
   def new
-  end
-
-  def edit
+    @post = Post.new
   end
 
   def create
     # 5)
     @post = BlogPost.create(blog_post_params)
     if @post.valid?
-      redirect_to @post
+      redirect_to blog_post_path(@post)
     else
-      render action: :new
+      redirect_to new_blog_post_path
+    end
+  end
+
+  def edit
+    @post = BlogPost.find(params[:id])
+  end
+
+  def update
+    @post = BlogPost.find(params[:id])
+    # 6)
+    @post.update(blog_post_params)
+    if @post.valid?
+      redirect_to blog_post_path(@post)
+    else
+      redirect_to edit_blog_post_path
     end
   end
 
@@ -39,24 +53,23 @@ class BlogPostsController < ApplicationController
     if @post.destroy
       redirect_to blog_posts_path
     else
-      # 6)
+      # 7)
       redirect_to blog_post_path(@post)
     end
   end
 
-  # 7)
+  # 8)
   private
   def blog_post_params
-    # 8)
-    params.permit(:title, :content)
+    # 9)
+    params.require(:blog_post).permit(:title, :content)
   end
 
 end
 
 
-# app/models/blog_post.rb
+# FILE: app/models/blog_post.rb
 
-# 9)
 class BlogPost < ApplicationRecord
   # 10)
   has_many :comments
