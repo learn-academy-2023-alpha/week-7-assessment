@@ -6,25 +6,25 @@
 
 # FILE: app/controller/blog_posts_controller.rb
 
-# 1)
+# ---1)
 class BlogPostsController < ApplicationController
   def index
-    # 2)
+    # ---2)
     @posts = BlogPost.all
   end
 
   def show
-    # 3)
+    # ---3)
     @post = BlogPost.find(params[:id])
   end
 
-  # 4)
+  # ---4)
   def new
     @post = Post.new
   end
 
   def create
-    # 5)
+    # ---5)
     @post = BlogPost.create(blog_post_params)
     if @post.valid?
       redirect_to blog_post_path(@post)
@@ -33,13 +33,14 @@ class BlogPostsController < ApplicationController
     end
   end
 
+  # ---6)
   def edit
     @post = BlogPost.find(params[:id])
   end
 
   def update
     @post = BlogPost.find(params[:id])
-    # 6)
+    # ---7)
     @post.update(blog_post_params)
     if @post.valid?
       redirect_to blog_post_path(@post)
@@ -53,24 +54,16 @@ class BlogPostsController < ApplicationController
     if @post.destroy
       redirect_to blog_posts_path
     else
-      # 7)
+      # ---8)
       redirect_to blog_post_path(@post)
     end
   end
 
-  # 8)
+  # ---9)
   private
   def blog_post_params
-    # 9)
+    # ---10)
     params.require(:blog_post).permit(:title, :content)
   end
 
-end
-
-
-# FILE: app/models/blog_post.rb
-
-class BlogPost < ApplicationRecord
-  # 10)
-  has_many :comments
 end

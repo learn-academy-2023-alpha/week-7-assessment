@@ -31,20 +31,20 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
-method="GET"    /users          
+method="GET"    /students          
 
-method="GET"    /users/1  
+method="GET"    /students/2  
 
-method="GET"    /users/new
+method="GET"    /students/new
 
-method="GET"    /users/edit/1    
+method="GET"    /students/edit/2    
 
-method="POST"   /users/       
+method="POST"   /students/       
 
-method="PUT"    /users/1      
+method="PATCH"  /students/2      
 
-method="DELETE" /users/1      
+method="DELETE" /students/2      
 
 
 
-5. As a developer, you want to make an application that will help you manage your to do list. For the MVP, you want to create just the user's view. Create 10 user stories that will help you get your application started. 
+5. As a developer, you want to make an application that will help you manage your to do list. To get started, you want to create the API. Create 10 user stories that will help you get your application started.
