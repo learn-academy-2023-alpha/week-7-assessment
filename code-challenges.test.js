@@ -54,13 +54,14 @@ var hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 
 
 
-// --------------------3) Create a function that takes in two arrays as arguments returns one array with no duplicate values.
+// --------------------3) Create a function that takes in an array of numbers and returns the sum of all the numbers cubed.
+
+var cubeAndSum1 = [2, 3, 4]
+// Expected output: 99
+var cubeAndSum2 = [0, 5, 10]
+// Expected output: 1125
 
 // a) Create a test with an expect statement using the variables provided.
-
-var jumbleArray1 = [3, 7, "hi", 10, 3, "hello", 4, "hi"]
-var jumbleArray2 = [7, "hi", 3, 1, "hi", 4, "hello", 4, 7]
-// Expected output: [ 3, 7, "hi", 10, "hello", 4, 1 ]
 
 
 
