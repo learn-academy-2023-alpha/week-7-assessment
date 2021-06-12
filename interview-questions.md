@@ -39,7 +39,7 @@ method="GET"    /students/new
 
 method="GET"    /students/edit/2    
 
-method="POST"   /students/       
+method="POST"   /students       
 
 method="PATCH"  /students/2      
 
