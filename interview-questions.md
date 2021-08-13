@@ -13,7 +13,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 
 
-2. Which RESTful routes must always be passed params? Why?
+2. Which RESTful API routes must always be passed params? Why?
 
   Your answer:
 
@@ -33,13 +33,13 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 method="GET"    /students          
 
-method="GET"    /students/2  
+method="POST"   /students       
 
 method="GET"    /students/new
 
-method="GET"    /students/edit/2    
+method="GET"    /students/2  
 
-method="POST"   /students       
+method="GET"    /students/edit/2    
 
 method="PATCH"  /students/2      
 
@@ -47,4 +47,4 @@ method="DELETE" /students/2
 
 
 
-5. As a developer, you want to make an application that will help you manage your to do list. To get started, you want to create the API. Create 10 user stories that will help you get your application started.
+5. As a developer, you want to make an application that will help you manage your to do list. Create 10 user stories that will help you get your application started. Read more about [user stories](https://www.atlassian.com/agile/project-management/user-stories).

@@ -1,5 +1,6 @@
 # Assessments for Week 6
 
+- Make sure all previous assessments are completed, merged, and branches deleted
 - Assessment should be accessed through GitHub Classroom
 - Clone the assessment to your local machine
 - **Create a new branch**

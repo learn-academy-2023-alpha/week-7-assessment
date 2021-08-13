@@ -27,11 +27,7 @@ var people = [
 
 
 
-
-
 // b) Create the function that makes the test pass.
-
-
 
 
 
@@ -46,11 +42,7 @@ var hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 
 
 
-
-
 // b) Create the function that makes the test pass.
-
-
 
 
 
@@ -62,8 +54,6 @@ var cubeAndSum1 = [2, 3, 4]
 // Expected output: 99
 var cubeAndSum2 = [0, 5, 10]
 // Expected output: 1125
-
-
 
 
 

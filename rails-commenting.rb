@@ -65,5 +65,4 @@ class BlogPostsController < ApplicationController
     # ---10)
     params.require(:blog_post).permit(:title, :content)
   end
-
 end
