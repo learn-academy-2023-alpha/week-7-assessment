@@ -4,26 +4,25 @@
 // Pseudo coding is REQUIRED
 // If you get stuck, please leave comments to help us understand your thought process
 
-// Add appropriate dependencies to the repository:
-// $ yarn add jest
-
 // Use test driven development to complete the following questions
-// Run the file with the following command:
-// $ yarn jest
+// Add appropriate dependencies: $ yarn add jest
+
+// Reminder: The test will call your function
+// Run the file with the following command: $ yarn jest
 
 // Reminder: The test will call your function
 
 
-// --------------------1) Create a function that takes in an array of objects and returns an array with a sentence about each person with their names capitalized.
+// --------------------1) Create a function that takes in an array of objects and returns an array with a sentence about each person with their name capitalized.
 
 // a) Create a test with an expect statement using the variable provided.
 
 var people = [
-  { name: "ford prefect", occupation: "hitchhiker" },
+  { name: "ford prefect", occupation: "a hitchhiker" },
   { name: "zaphod beeblebrox", occupation: "president of the galaxy" },
-  { name: "arthur dent", occupation: "radio employee" }
+  { name: "arthur dent", occupation: "a radio employee" }
 ]
-// Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is a president of the galaxy.", "Arthur Dent is a radio employee."]
+// Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
 
 
 
