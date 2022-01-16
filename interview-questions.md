@@ -31,19 +31,19 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 4. Consider the Rails routes below. What is the name of the controller method that would be called by each route? What action would each of the controller methods perform?
 
-method="GET"    /students          
+action: "GET"    route: /students          
 
-method="POST"   /students       
+action: "POST"   route: /students       
 
-method="GET"    /students/new
+action: "GET"    route: /students/new
 
-method="GET"    /students/2  
+action: "GET"    route: /students/2  
 
-method="GET"    /students/2/edit    
+action: "GET"    route: /students/2/edit    
 
-method="PATCH"  /students/2      
+action: "PATCH"  route: /students/2      
 
-method="DELETE" /students/2      
+action: "DELETE" route: /students/2      
 
 
 

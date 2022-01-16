@@ -20,7 +20,7 @@ class BlogPostsController < ApplicationController
 
   # ---4)
   def new
-    @post = Post.new
+    @post = BlogPost.new
   end
 
   def create
