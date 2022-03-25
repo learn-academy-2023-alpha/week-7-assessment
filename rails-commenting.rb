@@ -13,8 +13,8 @@ class BlogPostsController < ApplicationController
     @posts = BlogPost.all
   end
 
+  # ---3)
   def show
-    # ---3)
     @post = BlogPost.find(params[:id])
   end
 
@@ -33,8 +33,8 @@ class BlogPostsController < ApplicationController
     end
   end
 
-  # ---6)
   def edit
+    # ---6)
     @post = BlogPost.find(params[:id])
   end
 
