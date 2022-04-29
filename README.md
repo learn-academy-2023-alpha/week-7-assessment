@@ -10,4 +10,4 @@ Assessment should be accessed through the GitHub Classroom link provided in your
 
 A complete assessment is a meaningful and valid attempt on every answer. Incomplete assessments will not be reviewed.
 
-Assessments are due *before* class begins on the following Monday.
+This assessment is due *before* class begins on Monday of **Week 8**.
