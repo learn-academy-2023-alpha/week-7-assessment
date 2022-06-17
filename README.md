@@ -1,4 +1,4 @@
-# Assessment for Week 1
+# Assessment for Week 6
 
 Being a developer requires an acute attention to detail. The expectation of this assessment is that all instructions are read carefully and followed completely.
 
