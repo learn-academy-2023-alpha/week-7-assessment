@@ -21,9 +21,7 @@ const people = [
 ]
 // Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
 
-
 // b) Create the function that makes the test pass.
-
 
 // --------------------2) Create a function that takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
 
@@ -34,9 +32,7 @@ const hodgepodge1 = [23, "Heyyyy!", 45, -10, 0, "Yo", false]
 const hodgepodge2 = [5, "Hola", 43, -34, "greetings", true]
 // Expected output: [ 2, 1, -1 ]
 
-
 // b) Create the function that makes the test pass.
-
 
 // --------------------3) Create a function that takes in an array of numbers and returns the sum of all the numbers cubed.
 
@@ -46,6 +42,5 @@ const cubeAndSum1 = [2, 3, 4]
 // Expected output: 99
 const cubeAndSum2 = [0, 5, 10]
 // Expected output: 1125
-
 
 // b) Create the function that makes the test pass.
