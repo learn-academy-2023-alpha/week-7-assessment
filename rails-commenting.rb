@@ -28,8 +28,6 @@ class BlogPostsController < ApplicationController
     @post = BlogPost.create(blog_post_params)
     if @post.valid?
       redirect_to blog_post_path(@post)
-    else
-      redirect_to new_blog_post_path
     end
   end
 
@@ -44,18 +42,14 @@ class BlogPostsController < ApplicationController
     @post.update(blog_post_params)
     if @post.valid?
       redirect_to blog_post_path(@post)
-    else
-      redirect_to edit_blog_post_path
     end
   end
 
   def destroy
     @post = BlogPost.find(params[:id])
     if @post.destroy
-      redirect_to blog_posts_path
-    else
       # ---8)
-      redirect_to blog_post_path(@post)
+      redirect_to blog_posts_path
     end
   end
 
